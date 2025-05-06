@@ -21,7 +21,7 @@ log = "0.4.27"
 web-sys = { version = "0.3.77", features = ["CanvasRenderingContext2d", "HtmlCanvasElement", "Window", "Document"] }
 yew = { version = "0.21.0", default-features = false, optional = true }
 dioxus = { version = "0.6.3", optional = true }
-leptos = { version = "0.7.8", optional = true }
+leptos = { version = "0.8.0", optional = true }
 
 [features]
 yew = ["dep:yew"]
