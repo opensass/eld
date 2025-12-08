@@ -17,7 +17,7 @@ exclude = ["assets", "examples"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-log = "0.4.27"
+log = "0.4.29"
 web-sys = { version = "0.3.77", features = ["CanvasRenderingContext2d", "HtmlCanvasElement", "Window", "Document"] }
 yew = { version = "0.21.0", default-features = false, optional = true }
 dioxus = { version = "0.6.3", optional = true }
